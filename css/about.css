@@ -66,12 +66,12 @@ p {
     line-height: 1.4;
 }
 
-.container {
+body {
     width: 800px;
     margin: 0 auto;
 }
 
-.logo-nav {
+.top-content {
     display: flex;
     justify-content: space-between; 
     align-items: flex-end;
@@ -79,11 +79,8 @@ p {
     padding: 10px 0px 10px 0px;
 }
 
-
-
-.lambda_roads {
-    margin: 10px 0 10px 0;
-    padding: 10px 0 10px 0;
+.top-content div {
+    align-self: center;
 }
 
 .nav-bar a {
@@ -100,67 +97,52 @@ p {
 	box-shadow: 7px 5px 5px rgb(230, 230, 230);
 }
 
-.top-content {
+.city_horizon {
+    border-radius: 3px;
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+}
+
+.about-text {
+    margin: 10px 0px 10px 0;
+    padding: 10px 10px 10px 10px;
+}
+
+.about-info {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    flex-flow: column wrap;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.about-twins {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+.about-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    padding: 10px 15px 20px 15px;
 }
+
+.about-content h3, p {
+    margin: 10px 0 0px 0;
+    padding: 10px 0 10px 0;
+}
+
+.about-content button {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1% 10% 1% 10%;
+    margin: 10px 0 10px 0px;
+} 
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-.logo-nav {
-    display: flex;
-}
-
-.logo-nav section {
-    justify-content: space-between;
+.lwt {
+    padding: 0px 10px 0px 10px;
 }
 
 footer {
@@ -180,4 +162,21 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
 }

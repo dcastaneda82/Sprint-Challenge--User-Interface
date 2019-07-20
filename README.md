@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic html is like making a floorplan for a house. You designate where walls, doors, and windows go, and how many rooms the house will have and how they connect.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Inline displays one after the other, starting on the left, and block  starts at the top and move down the page.
 
 3. What are the 4 areas of the box model?
 
+The content edge, padding edge, border edge, and margin edge.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+On the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+It allows for peer contributions and tracking projects.
+Reverts the code files back to their previous state.
+Recalls and revert the entire project back to its previous state.
+Compares code changes over specific durations of time.
+ETC.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
